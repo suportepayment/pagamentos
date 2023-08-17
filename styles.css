@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #292E4A;
+    }
+    button .material-icons{
+      font-size: 32px;
+    }
+    a{
+      text-decoration: none;
+      color: #FF526E;
+    }
+    .post{
+      text-align: justify;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px 10px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .pix-key {
+      display: flex;
+      align-items: center;
+    }
+    .copy-button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 24px;
+      margin-left: 10px;
+    }
+
+    /* Estilo do popup */
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 300px;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      z-index: 1000;
+      animation: popupFade 0.3s ease-in-out; /* Adicionando animação */
+      text-align: center;
+      font-size: 26px;
+    }
+    .popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 900;
+    }
+    .popup-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    
+    
+  }
+    .popup-message {
+      margin-bottom: 20px;
+  }
+    .popup-buttons {
+      text-align: center;
+    }
+    .popup-button {
+      padding: 8px 20px;
+      margin: 0 5px;
+      background-color: #FF526E;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    /* Definindo animação */
+    @keyframes popupFade {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+}    
+.sub-title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.about-title{
+  font-weight: 600;
+}
+.about-me{
+  font-size: 14px;
+  font-weight: normal;
+}
+.fa{
+  font-size: 32px;
+}
+
+button{
+  margin-right: 15px;
+  border: none;
+  padding: 0;
+  background-color: white;
+  cursor: pointer;
+
+}
+button a{
+  color: #FF526E;
+}
+.footer, .about, .about-me{
+  line-height: 1;
+}
