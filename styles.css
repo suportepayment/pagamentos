@@ -17,16 +17,20 @@
       font-size: 20px;
       line-height: 1.4;
       color: #292E4A;
+      text-align: center;
+      font-size: 22px;
     }
     button .material-icons{
       font-size: 32px;
+      color: #FF526E;
     }
     a{
       text-decoration: none;
       color: #FF526E;
     }
     .post{
-      text-align: justify;
+      text-align: center;
+      
     }
     .container {
       max-width: 800px;
@@ -38,7 +42,8 @@
     }
     .pix-key {
       display: flex;
-      align-items: center;
+      justify-content: center;
+      margin: 0 15px;
     }
     .copy-button {
       border: none;
@@ -63,7 +68,7 @@
       z-index: 1000;
       animation: popupFade 0.3s ease-in-out; /* Adicionando animação */
       text-align: center;
-      font-size: 26px;
+      
     }
     .popup-overlay {
       display: none;
@@ -118,8 +123,9 @@
   font-size: 22px;
   font-weight: 600;
 }
-.about-title{
-  font-weight: 600;
+.about{
+  font-weight: 500;
+  font-size: 16px;
 }
 .about-me{
   font-size: 14px;
@@ -127,10 +133,11 @@
 }
 .fa{
   font-size: 32px;
+  text-align: center;
 }
 
 button{
-  margin-right: 15px;
+  margin: 0 10px;
   border: none;
   padding: 0;
   background-color: white;
@@ -138,8 +145,9 @@ button{
 
 }
 button a{
-  color: #FF526E;
+  color: #757CA8;
 }
 .footer, .about, .about-me{
   line-height: 1;
+  text-align: center;
 }
